@@ -69,3 +69,6 @@ Truly engaging can be challenging and vulnerable. Sometimes showing up to class 
 ## **Be open to collaboration**
 
 Cooperation with other classmates is key and gives you the opportunity to learn from other points of view.
+
+
+hiiiiiiiiii made changes and pushed them in another repo but the repo was just the comm agreements and not a class folder so im redoing heres a second commit here
