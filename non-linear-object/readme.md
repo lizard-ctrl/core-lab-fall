@@ -1,0 +1,2 @@
+Taking care of Plants (-: 
+My 6 page website is showing the different ways you can meet plants needs or fail them. It takes you through the options like a choose your own adventure style book. I chose plants because taking care of them isn't always so linear + straightforward. Sometimes you do something wrong and it seems like the end of their life but its not. Other times it can be! It felt like a good facet of the world to explore for this project.
