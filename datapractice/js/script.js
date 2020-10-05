@@ -26,7 +26,7 @@ const tarotPull =
     generalPull: {
         past: [
         {
-          card: 'Four of Cups' ,
+          card: 'FOUR OF CUPS' ,
           orientation: 'Upright',
           cardNumber: 4,
           meaning: 'a time of being consumed by your own emotions and with life’s twists and turns',
@@ -36,16 +36,16 @@ const tarotPull =
 
     present: [
         {
-          card: 'Ten of Pentacles' ,
+          card: 'TEN OF PENTACLES' ,
           orientation: 'Upright',
           cardNumber: 10,
-          meaning: 'a positive sign that you have reached a point of completion and accomplishment in your journey',
+          meaning: 'a positive sign that you are reaching a completion and accomplishment in life',
           illustration: 'ten flowers blooming all over the card',
         }
       ],
         future: [
         {
-          card: 'Four of Swords' ,
+          card: 'FOUR OF SWORDS' ,
           orientation: 'Reversed',
           cardNumber: 4,
           meaning: 'a powerful message that you need to take time out to rest and recharge your energy',
@@ -73,6 +73,34 @@ const tarotPull =
    presentCard: function(){
       const presentPull = this.generalPull.present[0].card + this.generalPull.present[0].orientation + this.generalPull.present[0].meaning;
       return presentPull;
-    }
-
+    } 
 }
+function show_image()
+{
+	document.getElementById("image_holder").style.display="block";  
+	document.getElementById("textDisappear").style.display="none";
+ }
+
+
+console.log(tarotPull.generalPull.present[0].card);
+
+var tarot = tarotPull.generalPull.past[0].card;
+var pastdiv = document.querySelector("div");
+pastdiv.insertAdjacentHTML('afterbegin', tarot)
+var tarotmeaning = tarotPull.generalPull.past[0].meaning;
+var meaningdiv = document.querySelector("div");
+meaningdiv.insertAdjacentHTML('beforeend', tarotmeaning);
+
+var tarot1 = tarotPull.generalPull.present[0].card;
+var presentdiv = document.querySelector("div1");
+presentdiv.insertAdjacentHTML('afterbegin', tarot1);
+var tarotmeaning1 = tarotPull.generalPull.present[0].meaning;
+var meaningdiv = document.querySelector("div1");
+meaningdiv.insertAdjacentHTML('beforeend', tarotmeaning1);
+
+var tarot2 = tarotPull.generalPull.future[0].card;
+var futurediv = document.querySelector("div2");
+futurediv.insertAdjacentHTML('afterbegin', tarot2);
+var tarotmeaning2 = tarotPull.generalPull.future[0].meaning;
+var meaningdiv = document.querySelector("div2");
+meaningdiv.insertAdjacentHTML('beforeend', tarotmeaning2);
