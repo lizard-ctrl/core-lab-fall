@@ -57,21 +57,6 @@ button:hover {
   border: 10px solid red;
 }
 
-div:hover {
-  background-color: mediumslateblue;
-  color: red;
-  border: 25px solid red;
-}
-div1:hover {
-  background-color: mediumslateblue;
-  color: red;
-  border: 25px solid red;
-}
-div2:hover {
-  background-color: mediumslateblue;
-  color: red;
-  border: 25px solid red;
-}
 
 pre {
   background-color: blueviolet;
@@ -79,4 +64,22 @@ pre {
 
 pre:hover {
   color: red;
+}
+
+div:hover {
+  animation: transition 5s;
+}
+div1:hover {
+  animation: transition 5s;
+}
+div2:hover {
+  animation: transition 5s;
+}
+
+@keyframes transition {
+  from {}
+  to { 
+    color:darkorchid;
+    background-color:black;
+  }
 }
