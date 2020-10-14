@@ -1,0 +1,72 @@
+
+body{
+    background-image: url(assets/FarMediocreJuliabutterfly-size_restricted.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: larger;
+    font-family: 'Bungee Outline', cursive;
+}
+
+div{
+    border-radius: 40px;
+    box-shadow: 10px 10px 7px darkblue;
+    background-color: lightblue;
+    color: darkblue;
+    opacity: 50%;
+    padding: 15px 15px;
+    width:40%;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    right: 330px;
+}
+
+div1 {
+    border-radius: 40px;
+    box-shadow: 10px 10px 7px darkblue;
+    background-color: lightblue;
+    color: darkblue;
+    opacity: 50%;
+    padding: 15px 15px;
+    text-align: center;
+    position: absolute;
+    top: 280px;
+    right: 300px;
+}
+
+
+div2 {
+    border-radius: 40px;
+    box-shadow: 10px 10px 7px darkblue;
+    background-color: lightblue;
+    color: darkblue;
+    opacity: 80%;
+    padding: 15px 15px;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    right: 220px;
+}
+
+div:hover{
+    animation: transition 5s;
+
+}
+div1:hover{
+    animation: transition 5s;
+
+}
+div2:hover{
+    animation: transition 5s;
+
+}
+
+
+@keyframes transition {
+    from {}
+    to { 
+        background-color: lightblue;
+        color: darkblue;
+        opacity: 100%;
+    }
+  }
